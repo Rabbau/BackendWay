@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Backend Путь</title>
+  <meta name="description" content="Интерактивный курс бэкенд-разработки на Python по роадмапу roadmap.sh/backend">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-mark">{ }</span>
+      <span class="brand-name">Backend Путь</span>
+    </a>
+    <div class="topbar-progress" title="Общий прогресс">
+      <div class="bar"><div class="bar-fill" id="globalBar"></div></div>
+      <span id="globalPct">0%</span>
+    </div>
+    <button class="icon-btn" id="themeBtn" title="Сменить тему" aria-label="Сменить тему">◐</button>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer">
+    Структура курса основана на <a href="https://roadmap.sh/backend" target="_blank" rel="noopener">roadmap.sh/backend</a>.
+    Прогресс хранится только в этом браузере.
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="js/registry.js"></script>
+  <script src="js/roadmap.js"></script>
+  <!-- Контент тем: по файлу на раздел -->
+  <script src="content/internet.js"></script>
+  <script src="content/frontend.js"></script>
+  <script src="content/python.js"></script>
+  <script src="content/git.js"></script>
+  <script src="content/relational-db.js"></script>
+  <script src="content/more-db.js"></script>
+  <script src="content/apis.js"></script>
+  <script src="content/auth.js"></script>
+  <script src="content/caching.js"></script>
+  <script src="content/security.js"></script>
+  <script src="content/testing.js"></script>
+  <script src="content/containers.js"></script>
+  <script src="content/cicd.js"></script>
+  <script src="content/ai-coding.js"></script>
+  <script src="content/architecture.js"></script>
+  <script src="content/message-brokers.js"></script>
+  <script src="content/search.js"></script>
+  <script src="content/web-servers.js"></script>
+  <script src="content/realtime.js"></script>
+  <script src="content/nosql.js"></script>
+  <script src="content/scaling-db.js"></script>
+  <script src="content/scale.js"></script>
+  <script src="content/ai-integration.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
